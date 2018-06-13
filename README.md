@@ -9,7 +9,9 @@
 #### WordPress Payment Gateway for WooCommerce
 ----------
 
-![WordPress Payment Gateway Plugin for WooCommerce](https://imgur.com/HaXPX4D.jpg)
+<p align="center">
+<a href="https://arkcommerce.net"><img src="https://www.arkcommerce.net/wp-content/uploads/sites/2/2018/06/githubheader.jpg" /></a>
+</p>
 
 ----------
 
@@ -20,14 +22,44 @@ ARKCommerce solution leverages the versatility, resilience and quickness of ARK 
 
 ----------
 
+## **V1.1.0 Released**
+
+**UPDATE BY JULY 2018**
+
+**Follow upgrade instruction post update by manually deactivating and reactivating the plugin**
+
+Switch to ARK/DARK Node API - now able to use any standard node for Mainnet and Devnet blockchain queries
+
+Inclusion of WooCommerce Store Manager user role into available ARKCommerce events notification list
+
+Imposed limit for ARKCommerce open order queue to 50 due to ARK/DARK API available result count
+
+Code refactoring and plugin division into multiple modules
+
+Consolidation of translation files into a single POT
+
+Improved error handling
+
+Compatible with latest WooCommerce 3.4.2
+
+
+## **V1.0.1 Released**
+
+Update to Coinmarketcap.com v2 API
+
+Update to redesigned WooCommerce UI
+
+Compatible with latest WordPress Core 4.9.6
+
+Compatible with latest WooCommerce 3.4.0
+
 ## **V1.0 Released**
 
-All plugin files have been published in this repository, as well as on https://wordpress.org/plugins/arkcommerce
-The service is free for the foreseeable future, by all means take advantage of it; register on https://www.arkcommerce.net/
+All plugin files have been published in this repository under MIT license, as well as on https://wordpress.org/plugins/arkcommerce under GNUv3 license
 
 ----------
 
-## **Mission Objectives**
+## **Initial Mission Objectives**
  - Develop an ARK payment gateway with automatic order processing and reliable transaction validation
  - Make the deployment and configiration easy and rapid via common WordPress and cPanel administration interfaces that are common with web hosting providers
  - Provide a configurable order expiry timeout mechanism
@@ -45,9 +77,6 @@ The service is free for the foreseeable future, by all means take advantage of i
 ----------
 
 ## **Milestones to v1.0**
-When the plugin reaches its final form and infrastructure for running it is secure, v1.0 will be published both here on GitHub and WordPress.org for it relies on an ARKCommerce Node that is in intermittent operation and totally inaccessible from WAN at this time.
-
-**The initial development is nearly complete. Currently awaiting the arrival of hardware the system shall run on. As soon as the infrastructure is deployed, secured, and publicly accessible, UA testing shall commence.**
 
   - [x] Successful initial deployment and automated order processing
  
@@ -68,11 +97,10 @@ When the plugin reaches its final form and infrastructure for running it is secu
   - [X] Self-service user registration process implementation
  
   - [x] Website deployment and content creation
- 
-There will be an initial promotional period of absolutely free service. Subseqent introduction of fees may be necessary in order to cover infrastructure costs as the system relies on the ARKCommerce Node acting as a bridge between merchants and ARK blockchain queries.
+  
 
 ----------
-## **Current List of External Issues**
+## **List of External Issues**
  - <s>WooCommerce pricing issue</s>: https://github.com/woocommerce/woocommerce/issues/17581
 <s>*remedied in next release (3.2.4)</s> current release includes the fix
  - <s>ARK Desktop Client transaction altering issue</s>: https://github.com/ArkEcosystem/ark-desktop/issues/385
@@ -81,6 +109,12 @@ There will be an initial promotional period of absolutely free service. Subseqen
 ----------
 ## **Author**
 Spikarija - Milan Semen
+
+----------
+## **Support**
+
+The best way of supporting the project is by taking advantage of the client.
+ARK donations are also welcome at AXaDj4ADMgzw67zik3ynwktARVKgwfv1WP
 
 ----------
 ## **License**
